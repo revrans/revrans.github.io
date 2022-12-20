@@ -1,0 +1,167 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    }
+
+
+    .medsos{
+        padding: 10px 0;
+        background-color: #FA4646;
+    }
+    .medsos ul li{
+        display: inline-block;
+        color:white;
+        margin-right: 5px;
+        padding: 8px;
+    }
+    .medsos ul li a{
+            color: inherit;
+            text-decoration: none;
+    }
+    .isi{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .isi:after{
+        Content: ' ';
+        Display: block;
+        Clear: both;
+        }
+    header{
+        
+    }
+    header h1{
+        
+        float: left;
+        padding: 15px 0;
+        color: #FA4646;
+    }
+    header h1 a{
+            color: inherit;
+            text-decoration: none;
+    }
+    header ul{
+        
+        float: right;
+    }
+    header ul a{
+        color: inherit;
+        text-decoration: none;
+    }
+    header ul li{
+        display: inline-block;
+    }
+    header ul li a{
+        padding: 25px 20px;
+        display: inline-block;
+    }
+    header ul li a:hover{
+        background-color: #FA4646;
+        color: white;
+    }
+      input:invalid{
+        background: rgba(255, 136, 136, 0.904);
+      }
+      .container{
+        
+        width:40%;
+        height:auto;
+        position: relative;
+        left:30%;
+        top:1%;
+        border-radius: 5px;
+      }
+      .container h1{
+        color: #FA4646;
+      }
+      .container h2{
+        color: #FA4646;
+        font-size: 20px;
+      }
+      .input-form{
+        width:95%;
+        background:#F9F9F9;
+        margin:0.9%;
+        padding:10px;
+        border: none;
+        border-radius: 5px;
+      }
+      .input-form-number{
+        width:12%;
+        background:#F9F9F9;
+        margin:1%;
+        padding:10px;
+        border: none;
+        border-radius: 5px;
+      }
+      .input-form-value{
+        width:57.5%;
+        background:#F9F9F9;
+        margin:1%;
+        padding:10px;
+        border: none;
+        border-radius: 5px;
+      }
+      .btn-form-change{
+        color:white;
+        background: rgba(255, 136, 136, 0.904);
+        font-weight: bold;
+        border:none;
+        border-radius:50px;
+        padding:15px;
+        margin:10px;
+        width: 35%;
+        float:left;
+        margin-left: 20px;
+        cursor: pointer;
+      }
+      .btn-form-pay{
+        color:white;
+        background: rgba(255, 136, 136, 0.904);
+        font-weight: bold;
+        border:none;
+        border-radius:20px;
+        padding:15px;
+        margin:10px;
+        width: 35%;
+        cursor: pointer;
+      }
+      .btn-form-pay:hover{
+        background:rgb(0, 247, 255);
+      }
+      .btn-form-change:hover{
+        background: #fc7979;
+      }
+      table {
+          margin-top: 5px;
+          border-collapse: collapse;
+          width: 100%;
+          border: 1px solid #ddd;
+      }
+      
+      th, td {
+          background: white;
+      }
+      
+      th:hover {
+        box-shadow:2px 0px 10px 0px #F4F4F4;
+        border: 1px solid #68a2ff;
+      }
+      th{
+        border: 1px solid #F4F4F4;
+      }
+      @media only screen and (max-width: 700px) {
+          .container{
+            width:80%;
+            left:6%;
+          }
+          .input-form-value{
+            width:49%;
+          }
+      }
+      footer{
+        background-color: #FA4646;
+        margin-top: 385px;
+    }
+      
